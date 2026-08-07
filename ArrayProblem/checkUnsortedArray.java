@@ -1,5 +1,5 @@
 public class checkUnsortedArray {
-    static int checkUnsortedArrayel(int arr[]) {
+    static int checkUnsortedArrayEle(int arr[]) {
         int size = arr.length;
 
         for (int i = 0; i < size; i++) {
@@ -13,7 +13,7 @@ public class checkUnsortedArray {
 
     public static void main(String[] args) {
         int arr[] = { 1, 2, 7, 4, 9 };
-        int ans = checkUnsortedArrayelmet(arr);
+        int ans = checkUnsortedArrayEle(arr);
         System.out.println(ans);
     }
 
