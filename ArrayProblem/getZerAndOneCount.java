@@ -1,5 +1,5 @@
 public class getZerAndOneCount {
-    static int[] getZerAndOneCount(int arr[]) {
+    static int[] getZeroAndOneCount(int arr[]) {
         int zeroCount = 0;
         int oneCount = 0;
         int size = arr.length;
@@ -19,7 +19,7 @@ public class getZerAndOneCount {
 
     public static void main(String[] args) {
         int arr[] = { 0, 1, 0, 0, 1, 0, 0, 1, 0, 1, 0, 0 };
-        int ans[] = getZerAndOneCount(arr);
+        int ans[] = getZeroAndOneCount(arr);
         System.out.println("sum of zeroCount: " + ans[0] + "\nSum of oneCount: " + ans[1]);
 
     }
