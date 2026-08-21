@@ -1,4 +1,4 @@
-package TwoDarray;
+package Two_D_Array;
 
 import java.util.*;
 
