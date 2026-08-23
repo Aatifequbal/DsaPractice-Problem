@@ -12,8 +12,8 @@ public class columnSum {
         for(int col=0; col<n; col++){
              int sum = 0;
             for(int row=0; row<m; row++){
-                int value= matrix[row][col];
-                sum+=value;
+
+                sum += matrix[row][col];
             }
             result.add(sum);
         }
